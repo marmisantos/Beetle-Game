@@ -40,15 +40,15 @@ export default function AdminPage() {
 
   return (
     <div>
-      <h1>Kitty Admin</h1>
-      <h3>Kitty Creators</h3>
+      <h1>Beetle Admin</h1>
+      <h3>Beetle  Creators</h3>
       <div>
         {kittyCreatorItems}
       </div>
       <Form inline onSubmit={onAddCreatorClicked}>
         <Form.Group>
           <Form.Control
-            placeholder="Kitty Creator address"
+            placeholder="Beetle Creator address"
             onChange={onCreatorChanged}
           />
           <Button type="submit">
