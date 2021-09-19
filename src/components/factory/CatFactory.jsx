@@ -55,7 +55,7 @@ export default function CatFactory() {
     <>
       <div className="p-2">
         <h1>
-          Kitty Factory
+          Beetle Factory
           {' '}
           <small>
             <Badge pill variant="secondary">
@@ -64,12 +64,12 @@ export default function CatFactory() {
           </small>
         </h1>
         <p className="text-justify">
-          Create a custom generation zero Kitty!
+          Create a custom generation zero Beetle!
           {' '}
           <small>
-            Gen zero kitties are special.
+            Gen zero Beetles are special.
             They have no parents and only a limited number will ever exist!
-            Once the limit is reached no more gen zero kitties can be made.
+            Once the limit is reached no more gen zero Beetles can be made.
           </small>
         </p>
       </div>
@@ -100,21 +100,21 @@ export default function CatFactory() {
               className="m-2"
               onClick={handleSetDefaultKitty}
             >
-              Default Kitty
+              Default Beetle
             </Button>
             <Button
               variant="warning"
               className="m-2"
               onClick={handleSetRandomKitty}
             >
-              Random Kitty
+              Random Beetle
             </Button>
             <Button
               variant="warning"
               className="m-2"
               onClick={handleCreateKitty}
             >
-              Create Kitty
+              Create Beetle
             </Button>
           </div>
           <BirthAlert
