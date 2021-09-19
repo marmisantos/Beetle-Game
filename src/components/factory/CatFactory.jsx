@@ -79,14 +79,14 @@ export default function CatFactory() {
         </Col>
         <Col lg={8}>
           <Tabs variant="pills" defaultActiveKey="CatColors" id="cat-factory">
-            <Tab eventKey="CatColors" title="Cat Colors">
+            <Tab eventKey="CatColors" title="Beet Colors">
               <CatSettings
                 type={Cattribute.TYPES.basic}
                 dna={cat.model.dna}
                 handleDnaChange={handleDnaChange}
               />
             </Tab>
-            <Tab eventKey="Cattributes" title="Cattributes">
+            <Tab eventKey="Cattributes" title="Beetributes">
               <CatSettings
                 type={Cattribute.TYPES.cattribute}
                 dna={cat.model.dna}
