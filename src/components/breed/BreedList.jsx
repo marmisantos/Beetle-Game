@@ -121,7 +121,7 @@ export default function BreedList(props) {
           disabled={prevDisabled}
           onClick={onPrevKittyClicked}
         >
-          Prev Kitty
+          Prev Beetles
         </Button>
         <Button
           variant="info"
@@ -151,7 +151,7 @@ export default function BreedList(props) {
           disabled={nextDisabled}
           onClick={onNextKittyClicked}
         >
-          Next Kitty
+          Next Beetles
         </Button>
       </ButtonGroup>
       <Row>
