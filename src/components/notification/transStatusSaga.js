@@ -25,7 +25,7 @@ const messagesByAction = [
       getKitties.rejected,
       getOffers.rejected
     ],
-    pending: 'Retrieving kitties...',
+    pending: 'Retrieving beetles...',
   },
   {
     prefix: approveMarket.typePrefix,
@@ -37,7 +37,7 @@ const messagesByAction = [
   },
   {
     prefix: createGen0Kitty.typePrefix,
-    pending: 'Creating gen 0 kitty...',
+    pending: 'Creating gen 0 beetle...',
   },
   {
     prefix: sellKitty.typePrefix,
@@ -45,7 +45,7 @@ const messagesByAction = [
   },
   {
     prefix: buyKitty.typePrefix,
-    pending: 'Buying kitty...',
+    pending: 'Buying beetles...',
   },
   {
     prefix: sireKitty.typePrefix,
@@ -53,7 +53,7 @@ const messagesByAction = [
   },
   {
     prefix: buySireRites.typePrefix,
-    pending: 'Kittes getting to know each other...',
+    pending: 'beetles getting to know each other...',
   },
   {
     prefix: removeOffer.typePrefix,
@@ -61,11 +61,11 @@ const messagesByAction = [
   },
   {
     prefix: addKittyCreator.typePrefix,
-    pending: 'Adding new Kitty Creator...',
+    pending: 'Adding new beetle Creator...',
   },
   {
     prefix: removeKittyCreator.typePrefix,
-    pending: 'Removing Kitty Creator...',
+    pending: 'Removing beetles Creator...',
   }
 ];
 
