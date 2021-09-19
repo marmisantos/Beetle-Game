@@ -5,13 +5,13 @@
 ### Contracts
 Deployed on Binance Smart Chain (TESTNET)
 
-Kitties: https://testnet.bscscan.com/address/0xa674aFd39b6aAf4e6a85fE49d7b705fbD0d110Fa
+Beetles: https://testnet.bscscan.com/address/0xa674aFd39b6aAf4e6a85fE49d7b705fbD0d110Fa
 
 Marketplace: https://testnet.bscscan.com/address/0xc1006554aE254f7396787aa19f031f7ada760877
 
 Deployed on Binance Smart Chain (MAINNET)
 
-Kitties: https://bscscan.com/token/0x6cc98285cc105aeec33dd99d0d148afa9cd31db4
+Beetles: https://bscscan.com/token/0x6cc98285cc105aeec33dd99d0d148afa9cd31db4
 
 Marketplace: https://bscscan.com/address/0xff72c92ae45c9f559620be52e1a4f17cd6699d1f
 
@@ -32,14 +32,14 @@ Testing: mocha, chai, truffle-assertions
 2. You'll need some test BNB on the BSC (testnet) network. Visit a <a href="https://testnet.binance.org/faucet-smart" target="_blank">faucet</a> to get some free test BNB. Make sure you've set your wallet network to `BSC Testnet`.
 
 
-3. Visit the <a href="https://newyorkcatgame.netlify.app/" target="_blank">New York Cat Game</a> website.
+3. Visit the <a href="https://newyorkcatgame.netlify.app/" target="_blank">Beetle Game</a> website.
 
-4. Make sure your wallet is on the `BSC` test network. Press the "Connect" button. This will connect the wallet to the app so it can query the blockchain for your kitties.
+4. Make sure your wallet is on the `BSC` test network. Press the "Connect" button. This will connect the wallet to the app so it can query the blockchain for your Beetles.
 
-5. Head over to the Marketplace to get some kitties! Once you have 2 kitties you can breed them and have kittens.
+5. Head over to the Marketplace to get some Beetles! Once you have 2 Beetles you can breed them and have kittens.
 
 
-### Academy Kitties DNA
+### Academy Beetles DNA
 
 The DNA structure is a 16 digit number with the following breakdown. The Kitten DNA is a random combination of the parent DNA with a chance for a completely random value.
 
@@ -58,9 +58,9 @@ The DNA structure is a 16 digit number with the following breakdown. The Kitten 
 
 ### Cooldown
 
-When parent kitties breed they need time to rest before breeding again. Breed cooldowns are defined below.
+When parent Beetles breed they need time to rest before breeding again. Breed cooldowns are defined below.
 
-https://guide.cryptokitties.co/guide/cat-features/cooldown-speed
+https://guide.cryptoBeetles.co/guide/cat-features/cooldown-speed
 
 | Generation  | Cooldown Name  | Cooldown Time  |
 |---|---|---|
