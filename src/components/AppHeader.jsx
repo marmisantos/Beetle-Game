@@ -35,7 +35,7 @@ export default function AppHeader() {
     <Nav variant="pills" className="mb-2">
       <NavLink to="/" className="navbar-brand btn">
         <img
-          src="logo192.png"
+          src="logo.gif"
           alt="React"
           width="30"
           height="30"
