@@ -16,7 +16,7 @@ export default function CatList() {
 
   if (!kitties.length) {
     return (
-      <p>You have no kittes! Go to the Marketplace to adpot some!</p>
+      <p>You have no Beetles! Go to the Marketplace to adpot some!</p>
     );
   }
 
@@ -32,7 +32,7 @@ export default function CatList() {
 
   return (
     <Container>
-      <h1>My Kitties</h1>
+      <h1>Beetles</h1>
       <div className="d-flex flex-wrap">
         {catBoxes}
       </div>

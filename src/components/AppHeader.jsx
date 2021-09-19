@@ -15,7 +15,7 @@ export default function AppHeader() {
   const links = account && onSupportedNetwork
     ? (
       <>
-        <NavLink to="/kitties" className="btn nav-link">My Kitties</NavLink>
+        <NavLink to="/kitties" className="btn nav-link">My Beetles</NavLink>
         <NavLink to="/breed" className="btn nav-link">Breed</NavLink>
         <NavLink to="/market" className="btn nav-link">Marketplace</NavLink>
       </>

@@ -139,30 +139,30 @@ export default function BreedPage() {
     case BreedProgress.BIRTH:
       instructionContent = (
         <div>
-          <p className="text-success">Cogratulations! Your parent kitties now need a rest.</p>
+          <p className="text-success">Cogratulations! Your parent Beetles now need a rest.</p>
           <Button
             variant="primary"
             onClick={onResetParents}
           >
-            Breed Different Kitties
+            Breed Different Beetles
           </Button>
         </div>
       );
       break;
 
     case BreedProgress.ERROR_SAME_PARENT:
-      instructionContent = <p className="bg-warning text-white">The mum and dad kitty must be different!</p>;
+      instructionContent = <p className="bg-warning text-white">The mum and dad Beetle must be different!</p>;
       break;
 
     default:
-      instructionContent = <p>Select a Mum and Dad kitty</p>;
+      instructionContent = <p>Select a Mum and Dad Beetle</p>;
       break;
   }
 
   const kittenBox = kitten
     ? (
       <div className="d-flex flex-column align-items-center mt-4 text-success">
-        <h5>A new kitten is born!</h5>
+        <h5>A new Beetle is born!</h5>
         <CatBox model={kitten} />
       </div>
     )
@@ -170,16 +170,16 @@ export default function BreedPage() {
 
   return (
     <div className="p-2 mt-2">
-      <h1 className="text-center">Breed Your Kitties</h1>
+      <h1 className="text-center">Breed Your Beetles</h1>
       <Row>
         <Col sm={4} className="d-flex flex-column">
-          <h5 className="text-center">Kitties</h5>
+          <h5 className="text-center">Beetles</h5>
           <ButtonGroup className="p-1">
             <Button
               variant={isSireList() ? 'light' : 'primary'}
               onClick={() => setListType(BreedListType.user)}
             >
-              My Kitties
+              My Beetles
             </Button>
             <Button
               variant={isSireList() ? 'primary' : 'light'}
