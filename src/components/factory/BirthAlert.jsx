@@ -18,9 +18,9 @@ export default function BirthAlert(props) {
       show={show}
       onClose={handleBirthEventClose}
     >
-      <strong>A new kitty was born! </strong>
+      <strong>A new beetle was born! </strong>
       <span>
-        KittyId:
+        BeetleId:
         {kittyId}
         {' '}
         DNA:
