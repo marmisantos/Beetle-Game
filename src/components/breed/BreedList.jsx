@@ -15,7 +15,7 @@ import { selectOfferByKittyId } from '../market/offerSlice';
 import Service from '../js/service';
 
 export const BreedListType = {
-  user: 'Your Kitties',
+  user: 'Your Beetles',
   sire: 'Buy Sire',
 };
 
