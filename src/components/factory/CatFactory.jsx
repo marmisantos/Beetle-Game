@@ -86,7 +86,7 @@ export default function CatFactory() {
                 handleDnaChange={handleDnaChange}
               />
             </Tab>
-            <Tab eventKey="Cattributes" title="Beetributes">
+            <Tab eventKey="Cattributes" title="Beettributes">
               <CatSettings
                 type={Cattribute.TYPES.cattribute}
                 dna={cat.model.dna}
