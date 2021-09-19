@@ -8,8 +8,8 @@ export default class Service {
     // '0x38': // Binance MainNet
     '0x61': {
       // Binance Test'
-      kitty: '0xa674aFd39b6aAf4e6a85fE49d7b705fbD0d110Fa',
-      market: '0xc1006554aE254f7396787aa19f031f7ada760877',
+      kitty: '0x785c733AA7226659E36FbFc25cD9a0F962C9aFC1',
+      market: '0x8515cb8F0c988fab4b921B6B8ddaB56E85951C58',
     },
     '0x38': {
       // Binance MainNet
