@@ -40,7 +40,7 @@ export default function AppHeader() {
           width="30"
           height="30"
         />
-        New York Cats Game
+        Beetles Game
       </NavLink>
       {links}
       {factory}

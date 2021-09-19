@@ -43,11 +43,11 @@ export default function Home() {
   return (
     <div className="d-flex flex-column align-items-center">
       <div align="center" className="mt-2">
-        <h1>New York Cats Game</h1>
+        <h1>Beetles Game</h1>
         <p>
           Collect and breed furrever freinds!
           <br />
-          <GenZeroCounter msg="Generation Zero Kitties have already been created. Get yours before they're all gone!" />
+          <GenZeroCounter msg="Generation Zero Beetles have already been created. Get yours before they're all gone!" />
         </p>
       </div>
       {
